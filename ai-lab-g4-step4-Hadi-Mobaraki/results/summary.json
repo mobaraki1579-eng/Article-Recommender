@@ -1,0 +1,45 @@
+{
+  "primary_metric": "macro_F1",
+  "best_model": "M2 TF-IDF + LogisticRegression",
+  "majority_baseline": {
+    "model": "B1 majority class",
+    "accuracy": 0.397,
+    "balanced_acc": 0.143,
+    "macro_F1": 0.081,
+    "weighted_F1": 0.226
+  },
+  "best": {
+    "model": "M2 TF-IDF + LogisticRegression",
+    "accuracy": 0.828,
+    "balanced_acc": 0.764,
+    "macro_F1": 0.785,
+    "weighted_F1": 0.823
+  },
+  "hand_vs_sklearn_macro_f1": [
+    0.7853574719857985,
+    0.7853574719857986
+  ],
+  "weakest_classes_best_model": [
+    {
+      "class": 4,
+      "precision": 0.732,
+      "recall": 0.523,
+      "f1": 0.61,
+      "support": 386
+    },
+    {
+      "class": 3,
+      "precision": 0.765,
+      "recall": 0.736,
+      "f1": 0.75,
+      "support": 371
+    },
+    {
+      "class": 1,
+      "precision": 0.824,
+      "recall": 0.691,
+      "f1": 0.752,
+      "support": 149
+    }
+  ]
+}
