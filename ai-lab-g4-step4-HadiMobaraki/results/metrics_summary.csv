@@ -1,0 +1,6 @@
+model,accuracy,macro_precision,macro_recall,macro_f1,weighted_f1
+baseline (always majority),0.397,0.057,0.143,0.081,0.226
+random (class prior),0.234,0.142,0.142,0.142,0.232
+"k-NN (k=5, cosine)",0.785,0.74,0.715,0.724,0.78
+naive Bayes,0.783,0.752,0.713,0.725,0.776
+logistic regression,0.815,0.789,0.752,0.767,0.812
