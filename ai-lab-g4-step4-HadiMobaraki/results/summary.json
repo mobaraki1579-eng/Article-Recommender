@@ -1,0 +1,21 @@
+{
+  "n_rows": 12008,
+  "n_train": 8401,
+  "n_test": 3607,
+  "classes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "majority_class": 5,
+  "baseline_accuracy": 0.397,
+  "baseline_macro_f1": 0.0812,
+  "best_model": "logistic regression",
+  "best_accuracy": 0.815,
+  "best_macro_f1": 0.767,
+  "split": "stratified 70/30, rng seed 0"
+}
