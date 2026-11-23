@@ -1,6 +1,0 @@
-model,cv_macro_f1_mean,cv_macro_f1_std
-baseline (always majority),0.081,0.0
-random (class prior),0.142,0.003
-"k-NN (k=5, cosine)",0.733,0.009
-naive Bayes,0.73,0.011
-logistic regression,0.777,0.009
