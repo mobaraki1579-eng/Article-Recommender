@@ -1,6 +1,0 @@
-model,acc_mean,acc_std,macro_F1_mean,macro_F1_std
-B1 majority class,0.397,0.0,0.081,0.0
-B2 random (class priors),0.229,0.005,0.142,0.003
-M1 TF-IDF + ComplementNB,0.739,0.006,0.66,0.01
-M2 TF-IDF + LogisticRegression,0.826,0.009,0.789,0.008
-M3 TF-IDF + LinearSVC,0.827,0.011,0.788,0.012

@@ -1,7 +1,0 @@
-model,accuracy,balanced_acc,macro_F1,weighted_F1
-B1 majority class,0.397,0.143,0.081,0.226
-B2 random (class priors),0.233,0.143,0.142,0.231
-B3 random (uniform),0.143,0.138,0.125,0.161
-M1 TF-IDF + ComplementNB,0.735,0.612,0.651,0.711
-M2 TF-IDF + LogisticRegression,0.828,0.764,0.785,0.823
-M3 TF-IDF + LinearSVC,0.829,0.767,0.785,0.823
